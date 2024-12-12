@@ -1,0 +1,686 @@
+[
+    {
+        "id": "p_63_5801",
+        "question": "cuộc chiến cục bộ lớn nhất phản ánh mâu thuẫn giữa hai phe",
+        "answer": "Chiến tranh Việt Nam",
+        "context": "Chiến tranh Việt Nam đã trở thành cuộc chiến tranh cục bộ lớn nhất phản ánh mâu thuẫn giữa hai phe. Nhưng cuối cùng mọi chiến lược chiến tranh của Mĩ đều bị phá sản."
+    },
+    {
+        "id": "p_63_5802",
+        "question": "cuộc chiến cục bộ lớn nhất phản ánh mâu thuẫn giữa hai phe là gì",
+        "answer": "Chiến tranh Việt Nam",
+        "context": "Chiến tranh Việt Nam đã trở thành cuộc chiến tranh cục bộ lớn nhất phản ánh mâu thuẫn giữa hai phe. Nhưng cuối cùng mọi chiến lược chiến tranh của Mĩ đều bị phá sản."
+    },
+    {
+        "id": "p_63_5803",
+        "question": "cuộc chiến cục bộ lớn nhất phản ánh mâu thuẫn giữa hai phe là gì?",
+        "answer": "Chiến tranh Việt Nam",
+        "context": "Chiến tranh Việt Nam đã trở thành cuộc chiến tranh cục bộ lớn nhất phản ánh mâu thuẫn giữa hai phe. Nhưng cuối cùng mọi chiến lược chiến tranh của Mĩ đều bị phá sản."
+    },
+    {
+        "id": "p_63_5804",
+        "question": "cuộc chiến tranh việt nam đã phản ánh mâu thuẫn giữa hai phe",
+        "answer": "mọi chiến lược chiến tranh của Mĩ đều bị phá sản.",
+        "context": "Chiến tranh Việt Nam đã trở thành cuộc chiến tranh cục bộ lớn nhất phản ánh mâu thuẫn giữa hai phe. Nhưng cuối cùng mọi chiến lược chiến tranh của Mĩ đều bị phá sản."
+    },
+    {
+        "id": "p_63_5805",
+        "question": "cuộc chiến tranh việt nam đã phản ánh mâu thuẫn giữa hai phe như thế nào",
+        "answer": "Chiến tranh Việt Nam đã trở thành cuộc chiến tranh cục bộ lớn nhất",
+        "context": "Chiến tranh Việt Nam đã trở thành cuộc chiến tranh cục bộ lớn nhất phản ánh mâu thuẫn giữa hai phe. Nhưng cuối cùng mọi chiến lược chiến tranh của Mĩ đều bị phá sản."
+    },
+    {
+        "id": "p_63_5806",
+        "question": "cuộc chiến tranh việt nam đã phản ánh mâu thuẫn giữa hai phe là gì",
+        "answer": "Chiến tranh Việt Nam đã trở thành cuộc chiến tranh cục bộ lớn nhất",
+        "context": "Chiến tranh Việt Nam đã trở thành cuộc chiến tranh cục bộ lớn nhất phản ánh mâu thuẫn giữa hai phe. Nhưng cuối cùng mọi chiến lược chiến tranh của Mĩ đều bị phá sản."
+    },
+    {
+        "id": "p_63_5807",
+        "question": "cuộc chiến tranh việt nam là gì",
+        "answer": "phản ánh mâu thuẫn giữa hai phe.",
+        "context": "Chiến tranh Việt Nam đã trở thành cuộc chiến tranh cục bộ lớn nhất phản ánh mâu thuẫn giữa hai phe. Nhưng cuối cùng mọi chiến lược chiến tranh của Mĩ đều bị phá sản."
+    },
+    {
+        "id": "p_63_5808",
+        "question": "cuộc chiến tranh việt nam đã phản ánh mâu thuẫn giữa hai phe như thế nào?",
+        "answer": "Chiến tranh Việt Nam đã trở thành cuộc chiến tranh cục bộ lớn nhất",
+        "context": "Chiến tranh Việt Nam đã trở thành cuộc chiến tranh cục bộ lớn nhất phản ánh mâu thuẫn giữa hai phe. Nhưng cuối cùng mọi chiến lược chiến tranh của Mĩ đều bị phá sản."
+    },
+    {
+        "id": "p_63_5809",
+        "question": "chiến tranh việt nam là gì",
+        "answer": "mâu thuẫn giữa hai phe.",
+        "context": "Chiến tranh Việt Nam đã trở thành cuộc chiến tranh cục bộ lớn nhất phản ánh mâu thuẫn giữa hai phe. Nhưng cuối cùng mọi chiến lược chiến tranh của Mĩ đều bị phá sản."
+    },
+    {
+        "id": "p_63_5810",
+        "question": "cuộc chiến cục bộ lớn nhất phản ánh mâu thuẫn giữa hai phe?",
+        "answer": "Chiến tranh Việt Nam",
+        "context": "Chiến tranh Việt Nam đã trở thành cuộc chiến tranh cục bộ lớn nhất phản ánh mâu thuẫn giữa hai phe. Nhưng cuối cùng mọi chiến lược chiến tranh của Mĩ đều bị phá sản."
+    },
+    {
+        "id": "p_63_5811",
+        "question": "hiệp định pari được ký kết khi nào",
+        "answer": "Tháng 1973,",
+        "context": "Tháng 1973, Hiệp định Pari được kí kết."
+    },
+    {
+        "id": "p_63_5812",
+        "question": "hiệp định pari được ký kết vào năm nào",
+        "answer": "Tháng 1973,",
+        "context": "Tháng 1973, Hiệp định Pari được kí kết."
+    },
+    {
+        "id": "p_63_5813",
+        "question": "hiệp định pari được thành lập khi nào",
+        "answer": "Tháng 1973,",
+        "context": "Tháng 1973, Hiệp định Pari được kí kết."
+    },
+    {
+        "id": "p_63_5814",
+        "question": "hiệp định pari được kết thúc khi nào",
+        "answer": "Tháng 1973,",
+        "context": "Tháng 1973, Hiệp định Pari được kí kết."
+    },
+    {
+        "id": "p_63_5815",
+        "question": "khi nào hiệp định pari được ký kết",
+        "answer": "Tháng 1973,",
+        "context": "Tháng 1973, Hiệp định Pari được kí kết."
+    },
+    {
+        "id": "p_63_5816",
+        "question": "hiệp định pari được thông qua khi nào",
+        "answer": "Tháng 1973,",
+        "context": "Tháng 1973, Hiệp định Pari được kí kết."
+    },
+    {
+        "id": "p_63_5817",
+        "question": "hiệp định pari được ký kết khi nào?",
+        "answer": "Tháng 1973,",
+        "context": "Tháng 1973, Hiệp định Pari được kí kết."
+    },
+    {
+        "id": "p_63_5818",
+        "question": "hiệp định pari đã được ký kết vào năm nào",
+        "answer": "Tháng 1973,",
+        "context": "Tháng 1973, Hiệp định Pari được kí kết."
+    },
+    {
+        "id": "p_63_5819",
+        "question": "hiệp định pari bắt đầu khi nào",
+        "answer": "Tháng 1973,",
+        "context": "Tháng 1973, Hiệp định Pari được kí kết."
+    },
+    {
+        "id": "p_63_5820",
+        "question": "hiệp định pari được ký kết vào năm nào?",
+        "answer": "Tháng 1973,",
+        "context": "Tháng 1973, Hiệp định Pari được kí kết."
+    },
+    {
+        "id": "p_63_5821",
+        "question": "tại sao Mĩ lại cam kết về việc rút quân khỏi việt nam",
+        "answer": "thống nhất, chủ quyền, toàn vẹn lãnh thổ của Việt Nam",
+        "context": "Theo đó, Mĩ cam kết tôn trong các quyển dân tộc cơ bản, tôn trọng độc lập; thống nhất, chủ quyền, toàn vẹn lãnh thổ của Việt Nam và rút quân khỏi Việt Nam; cam kết không dính líu về quân Sự hoặc can thiệp về chính trị đối với Việt Nam."
+    },
+    {
+        "id": "p_63_5822",
+        "question": "những gì Mĩ cam kết với các quyển dân tộc cơ bản",
+        "answer": "tôn",
+        "context": "Theo đó, Mĩ cam kết tôn trong các quyển dân tộc cơ bản, tôn trọng độc lập; thống nhất, chủ quyền, toàn vẹn lãnh thổ của Việt Nam và rút quân khỏi Việt Nam; cam kết không dính líu về quân Sự hoặc can thiệp về chính trị đối với Việt Nam."
+    },
+    {
+        "id": "p_63_5823",
+        "question": "tại sao Mĩ lại cam kết về việc rút quân khỏi Việt Nam",
+        "answer": "thống nhất, chủ quyền, toàn vẹn lãnh thổ của Việt Nam",
+        "context": "Theo đó, Mĩ cam kết tôn trong các quyển dân tộc cơ bản, tôn trọng độc lập; thống nhất, chủ quyền, toàn vẹn lãnh thổ của Việt Nam và rút quân khỏi Việt Nam; cam kết không dính líu về quân Sự hoặc can thiệp về chính trị đối với Việt Nam."
+    },
+    {
+        "id": "p_63_5824",
+        "question": "những gì mĩ cam kết với việt nam",
+        "answer": "không dính líu về quân Sự hoặc can thiệp về chính trị",
+        "context": "Theo đó, Mĩ cam kết tôn trong các quyển dân tộc cơ bản, tôn trọng độc lập; thống nhất, chủ quyền, toàn vẹn lãnh thổ của Việt Nam và rút quân khỏi Việt Nam; cam kết không dính líu về quân Sự hoặc can thiệp về chính trị đối với Việt Nam."
+    },
+    {
+        "id": "p_63_5825",
+        "question": "mĩ cam kết gì với việt nam",
+        "answer": "không dính líu về quân Sự hoặc can thiệp về chính trị",
+        "context": "Theo đó, Mĩ cam kết tôn trong các quyển dân tộc cơ bản, tôn trọng độc lập; thống nhất, chủ quyền, toàn vẹn lãnh thổ của Việt Nam và rút quân khỏi Việt Nam; cam kết không dính líu về quân Sự hoặc can thiệp về chính trị đối với Việt Nam."
+    },
+    {
+        "id": "p_63_5826",
+        "question": "ý nghĩa của việc cam kết với việt nam là gì",
+        "answer": "không dính líu về quân Sự hoặc can thiệp về chính trị",
+        "context": "Theo đó, Mĩ cam kết tôn trong các quyển dân tộc cơ bản, tôn trọng độc lập; thống nhất, chủ quyền, toàn vẹn lãnh thổ của Việt Nam và rút quân khỏi Việt Nam; cam kết không dính líu về quân Sự hoặc can thiệp về chính trị đối với Việt Nam."
+    },
+    {
+        "id": "p_63_5827",
+        "question": "những gì Mĩ cam kết với việt nam",
+        "answer": "không dính líu về quân Sự hoặc can thiệp về chính trị",
+        "context": "Theo đó, Mĩ cam kết tôn trong các quyển dân tộc cơ bản, tôn trọng độc lập; thống nhất, chủ quyền, toàn vẹn lãnh thổ của Việt Nam và rút quân khỏi Việt Nam; cam kết không dính líu về quân Sự hoặc can thiệp về chính trị đối với Việt Nam."
+    },
+    {
+        "id": "p_63_5828",
+        "question": "ý nghĩa của việc cam kết việt nam là gì",
+        "answer": "không dính líu về quân Sự hoặc can thiệp về chính trị",
+        "context": "Theo đó, Mĩ cam kết tôn trong các quyển dân tộc cơ bản, tôn trọng độc lập; thống nhất, chủ quyền, toàn vẹn lãnh thổ của Việt Nam và rút quân khỏi Việt Nam; cam kết không dính líu về quân Sự hoặc can thiệp về chính trị đối với Việt Nam."
+    },
+    {
+        "id": "p_63_5829",
+        "question": "tại sao Mĩ lại cam kết về việc rút quân khỏi việt nam?",
+        "answer": "thống nhất, chủ quyền, toàn vẹn lãnh thổ của Việt Nam",
+        "context": "Theo đó, Mĩ cam kết tôn trong các quyển dân tộc cơ bản, tôn trọng độc lập; thống nhất, chủ quyền, toàn vẹn lãnh thổ của Việt Nam và rút quân khỏi Việt Nam; cam kết không dính líu về quân Sự hoặc can thiệp về chính trị đối với Việt Nam."
+    },
+    {
+        "id": "p_63_5830",
+        "question": "tại sao Mĩ lại cam kết với việt nam",
+        "answer": "không dính líu về quân Sự hoặc can thiệp về chính trị",
+        "context": "Theo đó, Mĩ cam kết tôn trong các quyển dân tộc cơ bản, tôn trọng độc lập; thống nhất, chủ quyền, toàn vẹn lãnh thổ của Việt Nam và rút quân khỏi Việt Nam; cam kết không dính líu về quân Sự hoặc can thiệp về chính trị đối với Việt Nam."
+    },
+    {
+        "id": "p_63_5834",
+        "question": "điều gì đã xảy ra trong thời kỳ chiến tranh lanh",
+        "answer": "sự 'đối đầu giữa hai cực Xô Mĩ.",
+        "context": "Nhân dân Việt Nam đoàn kết với nhân dân Lào và nhân dân Campuchia; tiến hành cuộc kháng chiến chống Mĩ, cứu nước, đến năm 1975 đã giành thắng lợi hoàn toàn: Tóm lại, trong thời kì Chiến tranh lanh, hẩu như mọi cuộc chiến tranh hoặc xung đột quân sự ở các khu vực trên thế giới, với những hình thức và mức độ khác nhau; đều liên quan tới sự 'đối đầu giữa hai cực Xô Mĩ."
+    },
+    {
+        "id": "p_63_5836",
+        "question": "những gì đã xảy ra trong cuộc kháng chiến lanh",
+        "answer": "sự 'đối đầu giữa hai cực Xô Mĩ.",
+        "context": "Nhân dân Việt Nam đoàn kết với nhân dân Lào và nhân dân Campuchia; tiến hành cuộc kháng chiến chống Mĩ, cứu nước, đến năm 1975 đã giành thắng lợi hoàn toàn: Tóm lại, trong thời kì Chiến tranh lanh, hẩu như mọi cuộc chiến tranh hoặc xung đột quân sự ở các khu vực trên thế giới, với những hình thức và mức độ khác nhau; đều liên quan tới sự 'đối đầu giữa hai cực Xô Mĩ."
+    },
+    {
+        "id": "p_63_5838",
+        "question": "tại sao nhân dân việt nam lại đoàn kết với Campuchia",
+        "answer": "tiến hành cuộc kháng chiến chống Mĩ, cứu nước,",
+        "context": "Nhân dân Việt Nam đoàn kết với nhân dân Lào và nhân dân Campuchia; tiến hành cuộc kháng chiến chống Mĩ, cứu nước, đến năm 1975 đã giành thắng lợi hoàn toàn: Tóm lại, trong thời kì Chiến tranh lanh, hẩu như mọi cuộc chiến tranh hoặc xung đột quân sự ở các khu vực trên thế giới, với những hình thức và mức độ khác nhau; đều liên quan tới sự 'đối đầu giữa hai cực Xô Mĩ."
+    },
+    {
+        "id": "p_63_5840",
+        "question": "điều gì đã xảy ra trong cuộc kháng chiến lanh",
+        "answer": "sự 'đối đầu giữa hai cực Xô Mĩ.",
+        "context": "Nhân dân Việt Nam đoàn kết với nhân dân Lào và nhân dân Campuchia; tiến hành cuộc kháng chiến chống Mĩ, cứu nước, đến năm 1975 đã giành thắng lợi hoàn toàn: Tóm lại, trong thời kì Chiến tranh lanh, hẩu như mọi cuộc chiến tranh hoặc xung đột quân sự ở các khu vực trên thế giới, với những hình thức và mức độ khác nhau; đều liên quan tới sự 'đối đầu giữa hai cực Xô Mĩ."
+    },
+    {
+        "id": "p_63_5841",
+        "question": "từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ?",
+        "answer": "em có nhận xét gì",
+        "context": "Từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ ?"
+    },
+    {
+        "id": "p_63_5842",
+        "question": "từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ",
+        "answer": "em có nhận xét gì vể chính sách đối ngoai của Mĩ",
+        "context": "Từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ ?"
+    },
+    {
+        "id": "p_63_5843",
+        "question": "từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ ?",
+        "answer": "em có nhận xét gì",
+        "context": "Từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ ?"
+    },
+    {
+        "id": "p_63_5844",
+        "question": "từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mỹ?",
+        "answer": "em có nhận xét gì vể chính sách đối ngoai của Mĩ",
+        "context": "Từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ ?"
+    },
+    {
+        "id": "p_63_5845",
+        "question": "từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mỹ",
+        "answer": "em có nhận xét gì vể chính sách đối ngoai của Mĩ",
+        "context": "Từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ ?"
+    },
+    {
+        "id": "p_63_5846",
+        "question": "từ ba cuộc chiến đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ?",
+        "answer": "em có nhận xét gì",
+        "context": "Từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ ?"
+    },
+    {
+        "id": "p_63_5847",
+        "question": "từ ba cuộc chiến đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ",
+        "answer": "em có nhận xét gì vể chính sách đối ngoai của Mĩ",
+        "context": "Từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ ?"
+    },
+    {
+        "id": "p_63_5848",
+        "question": "từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mỹ ?",
+        "answer": "em có nhận xét gì vể chính sách đối ngoai của Mĩ",
+        "context": "Từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ ?"
+    },
+    {
+        "id": "p_63_5849",
+        "question": "từ ba cuộc chiến đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ ?",
+        "answer": "em có nhận xét gì",
+        "context": "Từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ ?"
+    },
+    {
+        "id": "p_63_5850",
+        "question": "từ ba cuộc chiến tranh đã nêu trong bài báo, em có nhận xét gì vể chính sách đối ngoai của Mĩ?",
+        "answer": "em có nhận xét gì",
+        "context": "Từ ba cuộc chiến tranh đã nêu trong bài, em có nhận xét gì vể chính sách đối ngoai của Mĩ ?"
+    },
+    {
+        "id": "p_63_5851",
+        "question": "xu hướng hoà hoãn đông tây là gì",
+        "answer": "những cuộc gặp gỡ thương lượng Xô Mĩ",
+        "context": "XU THẾ HOÀ HOÃN ĐÔNG TÂY VÀ CHIẾN TRANH LẠNH CHẤM DỨT Từ đẩu những năm 70 cua thế kỉ XX xu hướng hoà hoãn Đông Tây đã xuất hiện với những cuộc gặp gỡ thương lượng Xô Mĩ mặc dù còn những diễn biến phức tạp."
+    },
+    {
+        "id": "p_63_5852",
+        "question": "xu hướng hoà hoãn đông tây xuất hiện khi nào",
+        "answer": "Từ đẩu những năm 70 cua thế kỉ XX",
+        "context": "XU THẾ HOÀ HOÃN ĐÔNG TÂY VÀ CHIẾN TRANH LẠNH CHẤM DỨT Từ đẩu những năm 70 cua thế kỉ XX xu hướng hoà hoãn Đông Tây đã xuất hiện với những cuộc gặp gỡ thương lượng Xô Mĩ mặc dù còn những diễn biến phức tạp."
+    },
+    {
+        "id": "p_63_5853",
+        "question": "xu hướng hoà hoãn Đông Tây là gì",
+        "answer": "những cuộc gặp gỡ thương lượng Xô Mĩ",
+        "context": "XU THẾ HOÀ HOÃN ĐÔNG TÂY VÀ CHIẾN TRANH LẠNH CHẤM DỨT Từ đẩu những năm 70 cua thế kỉ XX xu hướng hoà hoãn Đông Tây đã xuất hiện với những cuộc gặp gỡ thương lượng Xô Mĩ mặc dù còn những diễn biến phức tạp."
+    },
+    {
+        "id": "p_63_5854",
+        "question": "xu hướng hoà hoãn đông tây đã xảy ra như thế nào",
+        "answer": "xuất hiện với những cuộc gặp gỡ thương lượng Xô Mĩ",
+        "context": "XU THẾ HOÀ HOÃN ĐÔNG TÂY VÀ CHIẾN TRANH LẠNH CHẤM DỨT Từ đẩu những năm 70 cua thế kỉ XX xu hướng hoà hoãn Đông Tây đã xuất hiện với những cuộc gặp gỡ thương lượng Xô Mĩ mặc dù còn những diễn biến phức tạp."
+    },
+    {
+        "id": "p_63_5855",
+        "question": "xu hướng hoà hoãn đông tây xuất hiện như thế nào",
+        "answer": "xuất hiện với những cuộc gặp gỡ thương lượng Xô Mĩ",
+        "context": "XU THẾ HOÀ HOÃN ĐÔNG TÂY VÀ CHIẾN TRANH LẠNH CHẤM DỨT Từ đẩu những năm 70 cua thế kỉ XX xu hướng hoà hoãn Đông Tây đã xuất hiện với những cuộc gặp gỡ thương lượng Xô Mĩ mặc dù còn những diễn biến phức tạp."
+    },
+    {
+        "id": "p_63_5856",
+        "question": "xu hướng hoà hoãn Đông Tây xuất hiện khi nào",
+        "answer": "Từ đẩu những năm 70 cua thế kỉ XX",
+        "context": "XU THẾ HOÀ HOÃN ĐÔNG TÂY VÀ CHIẾN TRANH LẠNH CHẤM DỨT Từ đẩu những năm 70 cua thế kỉ XX xu hướng hoà hoãn Đông Tây đã xuất hiện với những cuộc gặp gỡ thương lượng Xô Mĩ mặc dù còn những diễn biến phức tạp."
+    },
+    {
+        "id": "p_63_5857",
+        "question": "xu hướng hoà hoãn đông tây là khi nào",
+        "answer": "những năm 70 cua thế kỉ XX",
+        "context": "XU THẾ HOÀ HOÃN ĐÔNG TÂY VÀ CHIẾN TRANH LẠNH CHẤM DỨT Từ đẩu những năm 70 cua thế kỉ XX xu hướng hoà hoãn Đông Tây đã xuất hiện với những cuộc gặp gỡ thương lượng Xô Mĩ mặc dù còn những diễn biến phức tạp."
+    },
+    {
+        "id": "p_63_5858",
+        "question": "xu hướng hoà hoãn ở Đông Tây là gì",
+        "answer": "những cuộc gặp gỡ thương lượng Xô Mĩ",
+        "context": "XU THẾ HOÀ HOÃN ĐÔNG TÂY VÀ CHIẾN TRANH LẠNH CHẤM DỨT Từ đẩu những năm 70 cua thế kỉ XX xu hướng hoà hoãn Đông Tây đã xuất hiện với những cuộc gặp gỡ thương lượng Xô Mĩ mặc dù còn những diễn biến phức tạp."
+    },
+    {
+        "id": "p_63_5859",
+        "question": "xu hướng hoà hoãn của Đông Tây là gì",
+        "answer": "những cuộc gặp gỡ thương lượng Xô Mĩ",
+        "context": "XU THẾ HOÀ HOÃN ĐÔNG TÂY VÀ CHIẾN TRANH LẠNH CHẤM DỨT Từ đẩu những năm 70 cua thế kỉ XX xu hướng hoà hoãn Đông Tây đã xuất hiện với những cuộc gặp gỡ thương lượng Xô Mĩ mặc dù còn những diễn biến phức tạp."
+    },
+    {
+        "id": "p_63_5860",
+        "question": "xu hướng hoà hoãn đông tây đã xảy ra khi nào",
+        "answer": "Từ đẩu những năm 70 cua thế kỉ XX",
+        "context": "XU THẾ HOÀ HOÃN ĐÔNG TÂY VÀ CHIẾN TRANH LẠNH CHẤM DỨT Từ đẩu những năm 70 cua thế kỉ XX xu hướng hoà hoãn Đông Tây đã xuất hiện với những cuộc gặp gỡ thương lượng Xô Mĩ mặc dù còn những diễn biến phức tạp."
+    },
+    {
+        "id": "p_63_5861",
+        "question": "những gì đã xảy ra trong bon hiệp định về nhĩng cơ sở của quan hệ giữa Đức và Tây Đứíc",
+        "answer": "hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức",
+        "context": "Trên cơ sở những thoả thuận Xô Mĩ, ngày 9 _ Il 1972, hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức đã kí kết tại Bon Hiệp định về nhĩng cơ sở của quan hệ giữa Đông Đức và Tây Đứíc ."
+    },
+    {
+        "id": "p_63_5862",
+        "question": "những gì đã xảy ra trong bon hiệp định về nhĩng cơ sở của quan hệ giữa Đông Đức và Tây Đứíc",
+        "answer": "hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức",
+        "context": "Trên cơ sở những thoả thuận Xô Mĩ, ngày 9 _ Il 1972, hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức đã kí kết tại Bon Hiệp định về nhĩng cơ sở của quan hệ giữa Đông Đức và Tây Đứíc ."
+    },
+    {
+        "id": "p_63_5863",
+        "question": "những gì đã xảy ra trong bon hiệp định về nhĩng cơ sở của quan hệ giữa đông Đức và tây Đứíc",
+        "answer": "hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức",
+        "context": "Trên cơ sở những thoả thuận Xô Mĩ, ngày 9 _ Il 1972, hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức đã kí kết tại Bon Hiệp định về nhĩng cơ sở của quan hệ giữa Đông Đức và Tây Đứíc ."
+    },
+    {
+        "id": "p_63_5864",
+        "question": "những gì đã xảy ra trong bon hiệp định về nhĩng cơ sở của quan hệ giữa Đức và Tây Đứíc?",
+        "answer": "hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức",
+        "context": "Trên cơ sở những thoả thuận Xô Mĩ, ngày 9 _ Il 1972, hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức đã kí kết tại Bon Hiệp định về nhĩng cơ sở của quan hệ giữa Đông Đức và Tây Đứíc ."
+    },
+    {
+        "id": "p_63_5865",
+        "question": "những gì đã xảy ra trong bon hiệp định về nhĩng cơ sở của quan hệ giữa Đông Đức và Tây Đứíc?",
+        "answer": "hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức",
+        "context": "Trên cơ sở những thoả thuận Xô Mĩ, ngày 9 _ Il 1972, hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức đã kí kết tại Bon Hiệp định về nhĩng cơ sở của quan hệ giữa Đông Đức và Tây Đứíc ."
+    },
+    {
+        "id": "p_63_5866",
+        "question": "sự khác biệt giữa cộng hoà dân chủ Đức và tây đứíc là gì",
+        "answer": "hai nước",
+        "context": "Trên cơ sở những thoả thuận Xô Mĩ, ngày 9 _ Il 1972, hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức đã kí kết tại Bon Hiệp định về nhĩng cơ sở của quan hệ giữa Đông Đức và Tây Đứíc ."
+    },
+    {
+        "id": "p_63_5867",
+        "question": "những gì đã xảy ra trong bon hiệp định về nhĩng cơ sở của quan hệ giữa đông Đức và tây Đứíc?",
+        "answer": "hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức",
+        "context": "Trên cơ sở những thoả thuận Xô Mĩ, ngày 9 _ Il 1972, hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức đã kí kết tại Bon Hiệp định về nhĩng cơ sở của quan hệ giữa Đông Đức và Tây Đứíc ."
+    },
+    {
+        "id": "p_63_5868",
+        "question": "những gì đã xảy ra trong bon hiệp định về nhĩng cơ sở của quan hệ giữa Tây Đứíc và Đức",
+        "answer": "hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức",
+        "context": "Trên cơ sở những thoả thuận Xô Mĩ, ngày 9 _ Il 1972, hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức đã kí kết tại Bon Hiệp định về nhĩng cơ sở của quan hệ giữa Đông Đức và Tây Đứíc ."
+    },
+    {
+        "id": "p_63_5869",
+        "question": "những gì đã xảy ra trong bon hiệp định về nhĩng cơ sở của quan hệ giữa đông Đức và Tây Đứíc",
+        "answer": "hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức",
+        "context": "Trên cơ sở những thoả thuận Xô Mĩ, ngày 9 _ Il 1972, hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức đã kí kết tại Bon Hiệp định về nhĩng cơ sở của quan hệ giữa Đông Đức và Tây Đứíc ."
+    },
+    {
+        "id": "p_63_5870",
+        "question": "những gì đã xảy ra trong bon hiệp định về nhĩng cơ sở của quan hệ giữa nước Đức và Tây Đứíc",
+        "answer": "hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức",
+        "context": "Trên cơ sở những thoả thuận Xô Mĩ, ngày 9 _ Il 1972, hai nước Cộng hoà Dân chủ Đức và Cộng hoà Liên bang Đức đã kí kết tại Bon Hiệp định về nhĩng cơ sở của quan hệ giữa Đông Đức và Tây Đứíc ."
+    },
+    {
+        "id": "p_63_5871",
+        "question": "sự toàn vẹn của các nước châu Âu trên đường biên giới hiện tại là gì",
+        "answer": "không điểu kiện chủ quyển và sự toàn vẹn Iãnh thổ",
+        "context": "Theo đó, hai bên tôn trọng không điểu kiện chủ quyển và sự toàn vẹn Iãnh thổ của nhau cũng như của các nước châu Âu trên đường biên giới hiện tại."
+    },
+    {
+        "id": "p_63_5872",
+        "question": "tại sao hai bên tôn trọng không điểu kiện chủ quyển của nhau",
+        "answer": "sự toàn vẹn Iãnh thổ",
+        "context": "Theo đó, hai bên tôn trọng không điểu kiện chủ quyển và sự toàn vẹn Iãnh thổ của nhau cũng như của các nước châu Âu trên đường biên giới hiện tại."
+    },
+    {
+        "id": "p_63_5873",
+        "question": "sự tôn trọng của các nước châu Âu trên đường biên giới hiện tại là gì",
+        "answer": "không điểu kiện chủ quyển và sự toàn vẹn Iãnh thổ",
+        "context": "Theo đó, hai bên tôn trọng không điểu kiện chủ quyển và sự toàn vẹn Iãnh thổ của nhau cũng như của các nước châu Âu trên đường biên giới hiện tại."
+    },
+    {
+        "id": "p_63_5874",
+        "question": "tại sao hai bên tôn trọng không điểu kiện chủ quyển và sự toàn vẹn của nhau",
+        "answer": "các nước châu Âu trên đường biên giới hiện tại.",
+        "context": "Theo đó, hai bên tôn trọng không điểu kiện chủ quyển và sự toàn vẹn Iãnh thổ của nhau cũng như của các nước châu Âu trên đường biên giới hiện tại."
+    },
+    {
+        "id": "p_63_5875",
+        "question": "sự tôn trọng của các nước châu Âu trên đường biên giới hiện tại là gì?",
+        "answer": "không điểu kiện chủ quyển và sự toàn vẹn Iãnh thổ",
+        "context": "Theo đó, hai bên tôn trọng không điểu kiện chủ quyển và sự toàn vẹn Iãnh thổ của nhau cũng như của các nước châu Âu trên đường biên giới hiện tại."
+    },
+    {
+        "id": "p_63_5876",
+        "question": "sự toàn vẹn của các nước châu Âu trên đường biên giới hiện tại là gì?",
+        "answer": "không điểu kiện chủ quyển và sự toàn vẹn Iãnh thổ",
+        "context": "Theo đó, hai bên tôn trọng không điểu kiện chủ quyển và sự toàn vẹn Iãnh thổ của nhau cũng như của các nước châu Âu trên đường biên giới hiện tại."
+    },
+    {
+        "id": "p_63_5877",
+        "question": "tại sao hai bên tôn trọng không điểu kiện chủ quyển và sự toàn vẹn của nhau?",
+        "answer": "các nước châu Âu trên đường biên giới hiện tại.",
+        "context": "Theo đó, hai bên tôn trọng không điểu kiện chủ quyển và sự toàn vẹn Iãnh thổ của nhau cũng như của các nước châu Âu trên đường biên giới hiện tại."
+    },
+    {
+        "id": "p_63_5878",
+        "question": "sự toàn vẹn của các nước châu Âu trên đường biên giới hiện tại",
+        "answer": "không điểu kiện chủ quyển và sự toàn vẹn Iãnh thổ",
+        "context": "Theo đó, hai bên tôn trọng không điểu kiện chủ quyển và sự toàn vẹn Iãnh thổ của nhau cũng như của các nước châu Âu trên đường biên giới hiện tại."
+    },
+    {
+        "id": "p_63_5879",
+        "question": "tại sao hai bên tôn trọng không điểu kiện sự toàn vẹn của nhau",
+        "answer": "chủ quyển và sự toàn vẹn Iãnh thổ",
+        "context": "Theo đó, hai bên tôn trọng không điểu kiện chủ quyển và sự toàn vẹn Iãnh thổ của nhau cũng như của các nước châu Âu trên đường biên giới hiện tại."
+    },
+    {
+        "id": "p_63_5880",
+        "question": "tại sao hai bên tôn trọng không điểu kiện chủ quyển của nhau?",
+        "answer": "sự toàn vẹn Iãnh thổ",
+        "context": "Theo đó, hai bên tôn trọng không điểu kiện chủ quyển và sự toàn vẹn Iãnh thổ của nhau cũng như của các nước châu Âu trên đường biên giới hiện tại."
+    },
+    {
+        "id": "p_63_5881",
+        "question": "điều gì đã xảy ra khi hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn đề để tranh chấp hoàn toàn",
+        "answer": "tinh hình căng thẳng ở châu Âu giảm đi rõ rệt.",
+        "context": "Hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn để tranh chấp hoàn toàn bằng ' biện pháp hoà bình. Nhờ đó, tinh hình căng thẳng ở châu Âu giảm đi rõ rệt."
+    },
+    {
+        "id": "p_63_5882",
+        "question": "điều gì xảy ra khi hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn đề để tranh chấp hoàn toàn",
+        "answer": "biện pháp hoà bình.",
+        "context": "Hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn để tranh chấp hoàn toàn bằng ' biện pháp hoà bình. Nhờ đó, tinh hình căng thẳng ở châu Âu giảm đi rõ rệt."
+    },
+    {
+        "id": "p_63_5883",
+        "question": "điều gì đã xảy ra khi hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn đề để tranh chấp hoàn toàn?",
+        "answer": "biện pháp hoà bình.",
+        "context": "Hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn để tranh chấp hoàn toàn bằng ' biện pháp hoà bình. Nhờ đó, tinh hình căng thẳng ở châu Âu giảm đi rõ rệt."
+    },
+    {
+        "id": "p_63_5884",
+        "question": "điều gì đã xảy ra khi hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng",
+        "answer": "tinh hình căng thẳng ở châu Âu giảm đi rõ rệt.",
+        "context": "Hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn để tranh chấp hoàn toàn bằng ' biện pháp hoà bình. Nhờ đó, tinh hình căng thẳng ở châu Âu giảm đi rõ rệt."
+    },
+    {
+        "id": "p_63_5885",
+        "question": "điều gì đã xảy ra khi hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn đề tranh chấp hoàn toàn",
+        "answer": "tinh hình căng thẳng ở châu Âu giảm đi rõ rệt.",
+        "context": "Hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn để tranh chấp hoàn toàn bằng ' biện pháp hoà bình. Nhờ đó, tinh hình căng thẳng ở châu Âu giảm đi rõ rệt."
+    },
+    {
+        "id": "p_63_5886",
+        "question": "điều gì xảy ra khi hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn đề để tranh chấp hoàn toàn?",
+        "answer": "biện pháp hoà bình.",
+        "context": "Hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn để tranh chấp hoàn toàn bằng ' biện pháp hoà bình. Nhờ đó, tinh hình căng thẳng ở châu Âu giảm đi rõ rệt."
+    },
+    {
+        "id": "p_63_5887",
+        "question": "điều gì đã xảy ra khi hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn đề tranh chấp hoàn toàn?",
+        "answer": "bằng ' biện pháp hoà bình.",
+        "context": "Hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn để tranh chấp hoàn toàn bằng ' biện pháp hoà bình. Nhờ đó, tinh hình căng thẳng ở châu Âu giảm đi rõ rệt."
+    },
+    {
+        "id": "p_63_5888",
+        "question": "điều gì xảy ra khi hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn đề tranh chấp hoàn toàn",
+        "answer": "biện pháp hoà bình.",
+        "context": "Hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn để tranh chấp hoàn toàn bằng ' biện pháp hoà bình. Nhờ đó, tinh hình căng thẳng ở châu Âu giảm đi rõ rệt."
+    },
+    {
+        "id": "p_63_5889",
+        "question": "điều gì xảy ra khi hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng",
+        "answer": "các vấn để tranh chấp hoàn toàn bằng ' biện pháp hoà bình.",
+        "context": "Hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn để tranh chấp hoàn toàn bằng ' biện pháp hoà bình. Nhờ đó, tinh hình căng thẳng ở châu Âu giảm đi rõ rệt."
+    },
+    {
+        "id": "p_63_5890",
+        "question": "điều gì đã xảy ra khi hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn đề",
+        "answer": "tranh chấp hoàn toàn bằng ' biện pháp hoà bình.",
+        "context": "Hai bên thiết lập quan hệ láng giểng thân thiện trên cơ sở bình đẳng và giải quyết các vấn để tranh chấp hoàn toàn bằng ' biện pháp hoà bình. Nhờ đó, tinh hình căng thẳng ở châu Âu giảm đi rõ rệt."
+    },
+    {
+        "id": "p_63_5891",
+        "question": "hạn chế vũ khí tiến công chiến lược là gì",
+        "answer": "hệ thống phòng chống tên lửa (ABM)",
+        "context": "Cung [ung Ildlll 1>1 2 Ildl Sicu Cuunis Licn AU Vd IYILUd UUd tludIl VC VICC Ildll chế vũ khí chiến lược và kí Hiệp ước vể việc hạn chế hệ thống phòng chống tên lửa (ABM) ngày 26 5, sau đó là Hiệp định han chế vũ khí tiến công chiến lược (1) (gọi tắt là SALT -1 )."
+    },
+    {
+        "id": "p_63_5892",
+        "question": "hạn chế hệ thống phòng chống tên lửa là gì",
+        "answer": "(ABM)",
+        "context": "Cung [ung Ildlll 1>1 2 Ildl Sicu Cuunis Licn AU Vd IYILUd UUd tludIl VC VICC Ildll chế vũ khí chiến lược và kí Hiệp ước vể việc hạn chế hệ thống phòng chống tên lửa (ABM) ngày 26 5, sau đó là Hiệp định han chế vũ khí tiến công chiến lược (1) (gọi tắt là SALT -1 )."
+    },
+    {
+        "id": "p_63_5893",
+        "question": "hiệp định han chế vũ khí tiến công chiến lược là gì",
+        "answer": "Hiệp ước vể việc hạn chế hệ thống phòng chống tên lửa",
+        "context": "Cung [ung Ildlll 1>1 2 Ildl Sicu Cuunis Licn AU Vd IYILUd UUd tludIl VC VICC Ildll chế vũ khí chiến lược và kí Hiệp ước vể việc hạn chế hệ thống phòng chống tên lửa (ABM) ngày 26 5, sau đó là Hiệp định han chế vũ khí tiến công chiến lược (1) (gọi tắt là SALT -1 )."
+    },
+    {
+        "id": "p_63_5894",
+        "question": "hạn chế vũ khí tiến công chiến lược",
+        "answer": "Hiệp định han chế vũ khí tiến công chiến lược (1)",
+        "context": "Cung [ung Ildlll 1>1 2 Ildl Sicu Cuunis Licn AU Vd IYILUd UUd tludIl VC VICC Ildll chế vũ khí chiến lược và kí Hiệp ước vể việc hạn chế hệ thống phòng chống tên lửa (ABM) ngày 26 5, sau đó là Hiệp định han chế vũ khí tiến công chiến lược (1) (gọi tắt là SALT -1 )."
+    },
+    {
+        "id": "p_63_5895",
+        "question": "ai đã ký hiệp định han chế vũ khí tiến công chiến lược",
+        "answer": "VC VICC",
+        "context": "Cung [ung Ildlll 1>1 2 Ildl Sicu Cuunis Licn AU Vd IYILUd UUd tludIl VC VICC Ildll chế vũ khí chiến lược và kí Hiệp ước vể việc hạn chế hệ thống phòng chống tên lửa (ABM) ngày 26 5, sau đó là Hiệp định han chế vũ khí tiến công chiến lược (1) (gọi tắt là SALT -1 )."
+    },
+    {
+        "id": "p_63_5896",
+        "question": "hiệp định han chế vũ khí tiến công chiến lược",
+        "answer": "Hiệp ước vể việc hạn chế hệ thống phòng chống tên lửa",
+        "context": "Cung [ung Ildlll 1>1 2 Ildl Sicu Cuunis Licn AU Vd IYILUd UUd tludIl VC VICC Ildll chế vũ khí chiến lược và kí Hiệp ước vể việc hạn chế hệ thống phòng chống tên lửa (ABM) ngày 26 5, sau đó là Hiệp định han chế vũ khí tiến công chiến lược (1) (gọi tắt là SALT -1 )."
+    },
+    {
+        "id": "p_63_5897",
+        "question": "định nghĩa hiệp ước han chế vũ khí tiến công chiến lược",
+        "answer": "Hiệp ước vể việc hạn chế hệ thống phòng chống tên lửa",
+        "context": "Cung [ung Ildlll 1>1 2 Ildl Sicu Cuunis Licn AU Vd IYILUd UUd tludIl VC VICC Ildll chế vũ khí chiến lược và kí Hiệp ước vể việc hạn chế hệ thống phòng chống tên lửa (ABM) ngày 26 5, sau đó là Hiệp định han chế vũ khí tiến công chiến lược (1) (gọi tắt là SALT -1 )."
+    },
+    {
+        "id": "p_63_5898",
+        "question": "ai đã ký hiệp ước han chế vũ khí tiến công chiến lược",
+        "answer": "VC VICC",
+        "context": "Cung [ung Ildlll 1>1 2 Ildl Sicu Cuunis Licn AU Vd IYILUd UUd tludIl VC VICC Ildll chế vũ khí chiến lược và kí Hiệp ước vể việc hạn chế hệ thống phòng chống tên lửa (ABM) ngày 26 5, sau đó là Hiệp định han chế vũ khí tiến công chiến lược (1) (gọi tắt là SALT -1 )."
+    },
+    {
+        "id": "p_63_5899",
+        "question": "hạn chế vũ khí chiến lược là gì",
+        "answer": "hệ thống phòng chống tên lửa (ABM)",
+        "context": "Cung [ung Ildlll 1>1 2 Ildl Sicu Cuunis Licn AU Vd IYILUd UUd tludIl VC VICC Ildll chế vũ khí chiến lược và kí Hiệp ước vể việc hạn chế hệ thống phòng chống tên lửa (ABM) ngày 26 5, sau đó là Hiệp định han chế vũ khí tiến công chiến lược (1) (gọi tắt là SALT -1 )."
+    },
+    {
+        "id": "p_63_5900",
+        "question": "hạn chế vũ khí tiến công chiến lược là gì?",
+        "answer": "hệ thống phòng chống tên lửa (ABM)",
+        "context": "Cung [ung Ildlll 1>1 2 Ildl Sicu Cuunis Licn AU Vd IYILUd UUd tludIl VC VICC Ildll chế vũ khí chiến lược và kí Hiệp ước vể việc hạn chế hệ thống phòng chống tên lửa (ABM) ngày 26 5, sau đó là Hiệp định han chế vũ khí tiến công chiến lược (1) (gọi tắt là SALT -1 )."
+    },
+    {
+        "id": "p_63_5901",
+        "question": "có bao nhiêu nước châu Âu đã ký kết định ước henxinki",
+        "answer": "33 nước",
+        "context": "Đâu tháng 8 1975, 33 nước châu Âu cùng với Mĩ và Canađa kí kết Định ước Henxinki."
+    },
+    {
+        "id": "p_63_5902",
+        "question": "có bao nhiêu nước châu Âu đã ký kết ước henxinki",
+        "answer": "33 nước",
+        "context": "Đâu tháng 8 1975, 33 nước châu Âu cùng với Mĩ và Canađa kí kết Định ước Henxinki."
+    },
+    {
+        "id": "p_63_5903",
+        "question": "có bao nhiêu nước châu Âu ký kết định ước henxinki",
+        "answer": "33 nước",
+        "context": "Đâu tháng 8 1975, 33 nước châu Âu cùng với Mĩ và Canađa kí kết Định ước Henxinki."
+    },
+    {
+        "id": "p_63_5904",
+        "question": "có bao nhiêu nước châu Âu đã kết hôn với henxinki",
+        "answer": "33 nước",
+        "context": "Đâu tháng 8 1975, 33 nước châu Âu cùng với Mĩ và Canađa kí kết Định ước Henxinki."
+    },
+    {
+        "id": "p_63_5905",
+        "question": "có bao nhiêu nước châu Âu ký kết ước henxinki",
+        "answer": "33 nước",
+        "context": "Đâu tháng 8 1975, 33 nước châu Âu cùng với Mĩ và Canađa kí kết Định ước Henxinki."
+    },
+    {
+        "id": "p_63_5906",
+        "question": "có bao nhiêu nước châu Âu đã kết thúc ước henxinki",
+        "answer": "33 nước",
+        "context": "Đâu tháng 8 1975, 33 nước châu Âu cùng với Mĩ và Canađa kí kết Định ước Henxinki."
+    },
+    {
+        "id": "p_63_5907",
+        "question": "có bao nhiêu nước châu Âu đã ký kết định ước henxinki?",
+        "answer": "33 nước",
+        "context": "Đâu tháng 8 1975, 33 nước châu Âu cùng với Mĩ và Canađa kí kết Định ước Henxinki."
+    },
+    {
+        "id": "p_63_5908",
+        "question": "khi nào các nước châu Âu ký kết ước henxinki",
+        "answer": "tháng 8 1975,",
+        "context": "Đâu tháng 8 1975, 33 nước châu Âu cùng với Mĩ và Canađa kí kết Định ước Henxinki."
+    },
+    {
+        "id": "p_63_5909",
+        "question": "có bao nhiêu nước châu Âu đã ký kết ước henxinki?",
+        "answer": "33 nước",
+        "context": "Đâu tháng 8 1975, 33 nước châu Âu cùng với Mĩ và Canađa kí kết Định ước Henxinki."
+    },
+    {
+        "id": "p_63_5910",
+        "question": "bao nhiêu nước châu Âu đã ký kết ước henxinki",
+        "answer": "33 nước",
+        "context": "Đâu tháng 8 1975, 33 nước châu Âu cùng với Mĩ và Canađa kí kết Định ước Henxinki."
+    },
+    {
+        "id": "p_63_5911",
+        "question": "định ước tuyên bố là gì",
+        "answer": "khẳng định những nguyên tắc trong quan hệ giữa các quốc gia",
+        "context": "Định ước tuyên bố khẳng định những nguyên tắc trong quan hệ giữa các quốc gia (như bình đẳng  chủ quyền; sự bền vững của đường biên giới, giải quyết (1) Vũ khí tiến công chiến lược được hiểu là tên lửa vượt đại châu có tầm bắn xa hơn 5 500 km; máy bay ném bom có tầm hoat động tương tự và tàu ngầm hạt nhân phóng tên lửa tầm xa."
+    },
+    {
+        "id": "p_63_5912",
+        "question": "những nguyên tắc nào được khẳng định trong quan hệ giữa các quốc gia?",
+        "answer": "bình đẳng  chủ quyền; sự bền vững của đường biên giới, giải quyết",
+        "context": "Định ước tuyên bố khẳng định những nguyên tắc trong quan hệ giữa các quốc gia (như bình đẳng  chủ quyền; sự bền vững của đường biên giới, giải quyết (1) Vũ khí tiến công chiến lược được hiểu là tên lửa vượt đại châu có tầm bắn xa hơn 5 500 km; máy bay ném bom có tầm hoat động tương tự và tàu ngầm hạt nhân phóng tên lửa tầm xa."
+    },
+    {
+        "id": "p_63_5913",
+        "question": "định ước tuyên bố được sử dụng để làm gì",
+        "answer": "khẳng định những nguyên tắc trong quan hệ giữa các quốc gia",
+        "context": "Định ước tuyên bố khẳng định những nguyên tắc trong quan hệ giữa các quốc gia (như bình đẳng  chủ quyền; sự bền vững của đường biên giới, giải quyết (1) Vũ khí tiến công chiến lược được hiểu là tên lửa vượt đại châu có tầm bắn xa hơn 5 500 km; máy bay ném bom có tầm hoat động tương tự và tàu ngầm hạt nhân phóng tên lửa tầm xa."
+    },
+    {
+        "id": "p_63_5914",
+        "question": "sự khác biệt giữa định ước tuyên bố và vũ khí tiến công chiến lược là gì",
+        "answer": "tên lửa vượt đại châu",
+        "context": "Định ước tuyên bố khẳng định những nguyên tắc trong quan hệ giữa các quốc gia (như bình đẳng  chủ quyền; sự bền vững của đường biên giới, giải quyết (1) Vũ khí tiến công chiến lược được hiểu là tên lửa vượt đại châu có tầm bắn xa hơn 5 500 km; máy bay ném bom có tầm hoat động tương tự và tàu ngầm hạt nhân phóng tên lửa tầm xa."
+    },
+    {
+        "id": "p_63_5915",
+        "question": "sự khác biệt giữa định ước tuyên bố và vũ khí tiến công chiến lược là gì?",
+        "answer": "tên lửa vượt đại châu",
+        "context": "Định ước tuyên bố khẳng định những nguyên tắc trong quan hệ giữa các quốc gia (như bình đẳng  chủ quyền; sự bền vững của đường biên giới, giải quyết (1) Vũ khí tiến công chiến lược được hiểu là tên lửa vượt đại châu có tầm bắn xa hơn 5 500 km; máy bay ném bom có tầm hoat động tương tự và tàu ngầm hạt nhân phóng tên lửa tầm xa."
+    },
+    {
+        "id": "p_63_5916",
+        "question": "định ước tuyên bố có nghĩa là gì trong quan hệ giữa các quốc gia",
+        "answer": "khẳng định những nguyên tắc trong quan hệ giữa các quốc gia",
+        "context": "Định ước tuyên bố khẳng định những nguyên tắc trong quan hệ giữa các quốc gia (như bình đẳng  chủ quyền; sự bền vững của đường biên giới, giải quyết (1) Vũ khí tiến công chiến lược được hiểu là tên lửa vượt đại châu có tầm bắn xa hơn 5 500 km; máy bay ném bom có tầm hoat động tương tự và tàu ngầm hạt nhân phóng tên lửa tầm xa."
+    },
+    {
+        "id": "p_63_5917",
+        "question": "định ước tuyên bố có nghĩa là gì",
+        "answer": "khẳng định những nguyên tắc trong quan hệ giữa các quốc gia",
+        "context": "Định ước tuyên bố khẳng định những nguyên tắc trong quan hệ giữa các quốc gia (như bình đẳng  chủ quyền; sự bền vững của đường biên giới, giải quyết (1) Vũ khí tiến công chiến lược được hiểu là tên lửa vượt đại châu có tầm bắn xa hơn 5 500 km; máy bay ném bom có tầm hoat động tương tự và tàu ngầm hạt nhân phóng tên lửa tầm xa."
+    },
+    {
+        "id": "p_63_5918",
+        "question": "định ước tuyên bố được sử dụng để làm gì trong quan hệ giữa các quốc gia",
+        "answer": "khẳng định những nguyên tắc trong quan hệ giữa các quốc gia",
+        "context": "Định ước tuyên bố khẳng định những nguyên tắc trong quan hệ giữa các quốc gia (như bình đẳng  chủ quyền; sự bền vững của đường biên giới, giải quyết (1) Vũ khí tiến công chiến lược được hiểu là tên lửa vượt đại châu có tầm bắn xa hơn 5 500 km; máy bay ném bom có tầm hoat động tương tự và tàu ngầm hạt nhân phóng tên lửa tầm xa."
+    },
+    {
+        "id": "p_63_5919",
+        "question": "những nguyên tắc nào được khẳng định trong quan hệ giữa các quốc gia",
+        "answer": "bình đẳng  chủ quyền; sự bền vững của đường biên giới, giải quyết",
+        "context": "Định ước tuyên bố khẳng định những nguyên tắc trong quan hệ giữa các quốc gia (như bình đẳng  chủ quyền; sự bền vững của đường biên giới, giải quyết (1) Vũ khí tiến công chiến lược được hiểu là tên lửa vượt đại châu có tầm bắn xa hơn 5 500 km; máy bay ném bom có tầm hoat động tương tự và tàu ngầm hạt nhân phóng tên lửa tầm xa."
+    },
+    {
+        "id": "p_63_5920",
+        "question": "sự khác biệt giữa định ước tuyên bố và vũ khí tiến công chiến lược",
+        "answer": "(1)",
+        "context": "Định ước tuyên bố khẳng định những nguyên tắc trong quan hệ giữa các quốc gia (như bình đẳng  chủ quyền; sự bền vững của đường biên giới, giải quyết (1) Vũ khí tiến công chiến lược được hiểu là tên lửa vượt đại châu có tầm bắn xa hơn 5 500 km; máy bay ném bom có tầm hoat động tương tự và tàu ngầm hạt nhân phóng tên lửa tầm xa."
+    }
+]
