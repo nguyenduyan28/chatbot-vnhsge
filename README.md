@@ -1,9 +1,9 @@
 ## Chatbot
 * GDCD, History, AV --> 2K sentences
+* Submit output: JSON File (Question, Answer, Context)
 
 
 ## TODO
-* Preprocessing the ocr output
-* Improve chunking for better context
-* Find better model (optional)
-* Verify question by LLM prompt (optional)
+* Preprocessing the ocr output (Khoa)
+* Improve chunking for better context (An)
+* Verify question by LLM prompt, using LLM API (Hoang)
