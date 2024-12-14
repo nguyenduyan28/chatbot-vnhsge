@@ -18,28 +18,32 @@ if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 
 # Function to initialize a GPT4All model
-def initialize_gpt4all_model(name):
+def initialize_gpt4all_model(model_path):
     try:
-        return GPT4All(model_name=name)
+        return GPT4All(model_name=model_path)
     except Exception as e:
-        print(f"Error initializing model: {e}")
+        print(f"Error initializing model {model_path}: {e}")
         return None
 
-# Function to verify a question using a GPT4All model
-def verify_question_with_gpt4all(model, question, context):
+# Function to verify a QA pair using a GPT4All model
+def verify_question_with_gpt4all(model, context, question, answer):
     try:
-        prompt = f"Verify the following question based on the context, Yes or No only:\n\nQuestion: {question}\nContext: {context}"
-        response = model.generate(prompt, temp = 0.7)
-        return response.strip()
+        messages = [
+            {"role": "system", "content": f"You are an expert examiner specializing in civic education knowledge assessment. Your task is to evaluate whether the following question and answer are accurate based on the provided context.\n\n"},
+            {"role": "user", "content": (
+                f"    *Context:* {context}\n\n"
+                f"    *Question:* {question}\n\n"
+                f"    *Answer:* {answer}\n\n"
+                f"Carefully assess the answer's correctness considering only the provided context. Respond with *\"Correct\"* if the answer accurately aligns with the context. Respond with *\"Incorrect\"* if the answer is factually or contextually wrong. Provide only *\"Correct\"* or *\"Incorrect\"* as your answer."
+            )}
+        ]
+        response = model.generate(messages).strip()
+        return response
     except Exception as e:
-        return f"Error during verification: {e}"
+        print(f"Error during verification: {e}")
+        return "Error"
 
-# Function to check if a response indicates validity
-def is_valid(response):
-    # Define logic to determine if the response indicates validity
-    return "yes" in response.lower()  # Adjust based on model responses
-
-# Function to save valid QA pairs to a new file
+# Function to save verified QA pairs to a file
 def save_verified_qa_pairs(qa_pairs, number_of_pages):
     verified_file_path = os.path.join(output_folder, f"verified_qa_pairs_{number_of_pages}.json")
     with open(verified_file_path, "w", encoding="utf-8") as output_file:
@@ -58,11 +62,15 @@ for file_name in os.listdir(folder_path):
                 number_of_pages = file_name.replace("qa_pairs_", "").replace(".json", "").strip()
 
                 # Initialize all models
-                initialized_models = {}
-                for model_name, model_path in models.items():
-                    model = initialize_gpt4all_model(model_path)
-                    if model:
-                        initialized_models[model_name] = model
+                initialized_models = {
+                    model_name: initialize_gpt4all_model(model_path)
+                    for model_name, model_path in models.items()
+                }
+
+                # Filter out uninitialized models
+                initialized_models = {
+                    name: model for name, model in initialized_models.items() if model is not None
+                }
 
                 if not initialized_models:
                     print("No models were successfully initialized.")
@@ -76,30 +84,24 @@ for file_name in os.listdir(folder_path):
                     qa_id = qa_pair.get("id", "N/A")
 
                     if question and context and answer:
-                        valid_models = []
+                        results = []
 
-                        # Use each model to verify the question
+                        # Use each model to verify the QA pair
                         for model_name, model in initialized_models.items():
-                            result = verify_question_with_gpt4all(model, question, context)
-                            if is_valid(result):
-                                valid_models.append(model_name)
+                            result = verify_question_with_gpt4all(model, context, question, answer)
+                            if result in ["Correct", "Incorrect"]:
+                                results.append(result)
 
-                        # If at least 2 out of 3 models agree, mark the QA pair as valid
-                        if len(valid_models) >= 0:  # Adjust threshold as per your requirement
+                        # Verify consensus (e.g., majority agreement among models)
+                        if results.count("Correct") > results.count("Incorrect"):
                             verified_qa_pairs.append({
                                 "id": qa_id,
                                 "question": question,
                                 "answer": answer,
                                 "context": context
                             })
-                            print(
-                                f"Verified (by models): {', '.join(valid_models)}\n"
-                                f"QA ID: {qa_id}\nQuestion: {question}\n"
-                                f"Context: {context}\nResult: {result}\n"
-                            )
 
-
-                # If there are verified QA pairs, save them to the new file
+                # Save verified QA pairs to a new file
                 if verified_qa_pairs:
                     save_verified_qa_pairs(verified_qa_pairs, number_of_pages)
                     print(f"Verified QA pairs saved to verified_qa_pairs_{number_of_pages}.json")
