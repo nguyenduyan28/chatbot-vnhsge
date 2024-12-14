@@ -1,19 +1,20 @@
 from PyPDF2 import PdfReader
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForQuestionAnswering, pipeline, XLMRobertaForQuestionAnswering
-import re
 import torch
 import spacy
 import torch
+import re
 import os
 import json
 import easyocr
-from pdf2image import convert_from_path
 from extract_ocr import fromPDFtoImg
-device = torch.device('mps')
+device = torch.device('mps') # if using cuda settings is different
+from test_sentence import semantic_chunk
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_experimental.text_splitter import SemanticChunker
 from sentence_transformers import SentenceTransformer
 from langchain_huggingface import HuggingFaceEmbeddings
+from underthesea import sent_tokenize
 model = HuggingFaceEmbeddings(model_name = 'dangvantuan/vietnamese-embedding')
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
@@ -28,7 +29,10 @@ def is_valid_answer(answer, context):
 
 from sentence_transformers import SentenceTransformer, util
 
-embedding_model = SentenceTransformer('dangvantuan/vietnamese-embedding')
+embedding_model = SentenceTransformer('bert-base-nli-mean-tokens')
+
+def semantic_chunk(text):
+    return sent_tokenize(text)
 
 
 def smt2(text):
@@ -62,7 +66,7 @@ def generate_queries(context):
             max_length=150,  # Adjust length
             num_beams=5,  # Increase beam size
             no_repeat_ngram_size=3,  # Avoid repetitions
-            num_return_sequences=5,  # More queries for variety
+            num_return_sequences=3,  # More queries for variety
         )
     return [query_tokenizer.decode(q, skip_special_tokens=True) for q in queries]
 
@@ -70,6 +74,17 @@ def generate_answer(question, context):
     result = qa_pipeline({"question": question, "context": context})
     return result['answer']
 
+
+def clean_text(text):
+    # Remove page numbers like "Trang 123" or "Page 123"
+    text = re.sub(r'\b(?:Trang)\s*\d+\b', '', text)
+    
+    # Remove figures labeled "Hình:" or similar patterns
+    text = re.sub(r'\b(?:Hình|Hinh)\s*.*?(?=\n|$)', '', text)
+    
+    # Remove extra whitespace and newlines
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
 
 
 
@@ -83,7 +98,14 @@ for i in range(len(reader.pages)):
     text = page.extract_text()
     if (len(text) == 0):
         text = fromPDFtoImg(pdf_file, i)
-    chunks = recursive_chunking(text)
+    text = clean_text(text)
+    sentences_list = re.split(r'(?<=[.!?])\s+', text.strip())
+    if (len(sentences_list) > 1): 
+        chunks = semantic_chunk(text)
+    else : chunks = sentences_list
+    with open("log.txt", "a") as f:
+        f.write(f"All text is : {text}, and chunks is : {chunks}\n")
+
     qa_pairs = []
 
     for chunk in chunks:
