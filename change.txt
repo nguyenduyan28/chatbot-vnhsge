@@ -1,0 +1,21 @@
+- extract_ocr.py : 
+  + pdf_to_images_and_back:
+    . nếu pdf chưa đúng định dạng ảnh cần chuyển trước khi gọi hàm fromPDFtoImg
+  + fromPDFtoImg(pdf_file, page_index) :  
+    . pdf input =>  chuyển sang ảnh(png, jpeg) => chuyển lại pdf
+    . kiểm tra đã có folder chưa => chưa => tạo
+    . thêm phần xử lí ảnh xám (easyocr thì phần này bỏ thì kết quả tốt hơn) : processed_image = grayscale(image)
+    . sau khi ocr thì lọc lại những phần thừa : processed_text = clean_ocr_text(raw_text)
+  + clean_ocr_text(text) : 
+    . có thể xóa đoạn trắng để gộp thành 1 đoạn văn bản dài
+
+Giải pháp đọc khác : 
+- ocr_tessa.py : 
+  + vẫn gọi hàm fromPDFtoImg(pdf_file, page_index) sẽ trả về kết quả tương tự
+
+Lich su 12.pdf : pdf dạng ảnh
+lishsu12.pdf : pdf cần chuyển sang ảnh
+2 file này chưa loại bỏ dòng trắng nếu muốn bỏ thì chạy lại.
+
+- /output : 
+  + kết quả sau khi ocr
