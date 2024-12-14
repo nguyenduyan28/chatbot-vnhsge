@@ -19,3 +19,11 @@ lishsu12.pdf : pdf cần chuyển sang ảnh
 
 - /output : 
   + kết quả sau khi ocr
+
+
+
+## Cập nhật 15/12/2024 0:54
+- pdf2image.py : 
+  - Thay đổi cách ocr qua tesseract. Đổi lại cách chunking thành từ đoạn có kich thước tối thiểu 300 kí tự (vì chunking semantic có vẻ không ổn bằng)
+  - Sau khi ra được câu hỏi và câu trả lời, verify (dựa trên verify-test) bằng llama, nếu được mới ghi vào file json. 
+  - Mỗi tài liệu giờ sẽ có 1 folder riêng, trong folder là kết quả từng trang.

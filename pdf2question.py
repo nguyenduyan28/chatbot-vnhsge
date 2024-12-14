@@ -1,14 +1,13 @@
 from PyPDF2 import PdfReader
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForQuestionAnswering, pipeline, XLMRobertaForQuestionAnswering
 import torch
-import spacy
-import torch
 import re
 import os
 import json
 import easyocr
-from extract_ocr import fromPDFtoImg
+from ocr_tessa import fromPDFtoImg
 device = torch.device('mps') # if using cuda settings is different
+from verify import verify_qa
 from test_sentence import semantic_chunk
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_experimental.text_splitter import SemanticChunker
@@ -18,35 +17,21 @@ from underthesea import sent_tokenize
 model = HuggingFaceEmbeddings(model_name = 'dangvantuan/vietnamese-embedding')
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-nlp = spacy.load("vi_core_news_lg")
 
 
-def is_valid_answer(answer, context):
-    if len(answer) < 3 or answer.lower() in context.lower():
-        return False
-    return True
+def chunk_to_sub_paragraph(text, chunk_size = 300):
+    l = sent_tokenize(text)
+    buffer = ''
+    chunk = []
+    for i in range(len(l)):
+        if (len(buffer) >= chunk_size):
+            chunk.append(buffer)
+            buffer = ''
+        else : buffer += l[i]
+    return chunk
 
 
-from sentence_transformers import SentenceTransformer, util
 
-embedding_model = SentenceTransformer('bert-base-nli-mean-tokens')
-
-def semantic_chunk(text):
-    return sent_tokenize(text)
-
-
-def smt2(text):
-    chunker = SemanticChunker(embeddings=model)
-    chunks = chunker.split_text(text)
-    return chunks
-
-
-def recursive_chunking(text, chunk_size=300, overlap=50):
-    text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=chunk_size,
-        chunk_overlap=overlap
-    )
-    return text_splitter.split_text(text)
 query_model_name = "doc2query/msmarco-vietnamese-mt5-base-v1"
 query_tokenizer = AutoTokenizer.from_pretrained(query_model_name)
 query_model = AutoModelForSeq2SeqLM.from_pretrained(query_model_name)
@@ -86,9 +71,19 @@ def clean_text(text):
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
+import os
 
 
-pdf_file = "ocr_material/Lich su 12.pdf"
+
+material_path = "ocr_material"
+
+pdf_name = "Lich su 12.pdf"
+file_name = os.path.splitext(pdf_name)[0]
+file_name = file_name.replace(' ', '_')
+print(file_name)
+pdf_file = os.path.join(material_path, pdf_name)
+
+os.makedirs(os.path.join('qa_pairs_ocr', file_name), exist_ok=True)
 reader = PdfReader(pdf_file)
 question_existed = []
 counter = 1
@@ -101,7 +96,7 @@ for i in range(len(reader.pages)):
     text = clean_text(text)
     sentences_list = re.split(r'(?<=[.!?])\s+', text.strip())
     if (len(sentences_list) > 1): 
-        chunks = semantic_chunk(text)
+        chunks = chunk_to_sub_paragraph(text)
     else : chunks = sentences_list
     with open("log.txt", "a") as f:
         f.write(f"All text is : {text}, and chunks is : {chunks}\n")
@@ -115,7 +110,6 @@ for i in range(len(reader.pages)):
         if (chunk is None):
             continue
         questions = generate_queries(chunk)
-        print(questions)
         questions_set = set(questions)
         
         for question in questions_set:
@@ -124,12 +118,14 @@ for i in range(len(reader.pages)):
                 continue  # Skip empty questions
             if (question not in question_existed):
                 answer = generate_answer(question, chunk)
-                qa_pairs.append({"id": f"p_{i + 1}_{counter}","question": question, "answer": answer, "context": chunk})
-                question_existed.append(question)
+                if (verify_qa(chunk, question, answer)):
+                    qa_pairs.append({"id": f"{pdf_file}_p_{i + 1}_{counter}","question": question, "answer": answer, "context": chunk})
+                    question_existed.append(question)
 
 
     # Save the results to a JSON file
-    output_file = f"qa_pairs_ocr/qa_pairs_{i + 1}.json"
+    os
+    output_file = f"qa_pairs_ocr/{file_name}/{file_name}_qa_pairs_{i + 1}.json"
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(qa_pairs, f, ensure_ascii=False, indent=4)
 
