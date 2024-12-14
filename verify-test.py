@@ -3,7 +3,7 @@ import json
 from gpt4all import GPT4All
 
 # Define the folder containing the JSON files
-folder_path = "testing"
+folder_path = "qa_pairs_ocr"
 output_folder = "verification"
 
 # Path to the GPT4All ghost model
@@ -58,6 +58,7 @@ if not ghost_model:
     exit()
 
 # Main process
+
 batch_size = 5  # Define the size of each batch
 for file_name in os.listdir(folder_path):
     if file_name.startswith("qa_pairs_") and file_name.endswith(".json"):

@@ -6,6 +6,7 @@ import re
 import cv2
 import numpy as np
 from PIL import Image
+import torch
 
 # OCR
 def clean_ocr_text(text):
@@ -101,27 +102,26 @@ def fromPDFtoImg(pdf_file, page_index):
     # return clean_ocr_text(ocr_text)
 # path 
 # ocr Tessaract
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-# Test
-def main():
-    pdf_file = r"ocr_material\Lich su 12.pdf"
-    # image_folder = "image"
-    # create_output_folder(image_folder)
-    output_folder = "output"
-    create_output_folder(output_folder)
+# # Test
+# def main():
+#     pdf_file = r"ocr_material/Lich su 12.pdf"
+#     # image_folder = "image"
+#     # create_output_folder(image_folder)
+#     output_folder = "output"
+#     create_output_folder(output_folder)
 
-    text = ''
-    for i in range(15):
-      text += fromPDFtoImg(pdf_file, i)
-      # text += f"\n Trang {i}\n"
+#     text = ''
+#     for i in range(15):
+#       text += fromPDFtoImg(pdf_file, i)
+#       # text += f"\n Trang {i}\n"
 
-    textPathOutput = f"{output_folder}//lichsu12_tessa.txt"
-    save_text_to_file(text,textPathOutput)
+#     textPathOutput = f"{output_folder}//lichsu12_tessa.txt"
+#     save_text_to_file(text,textPathOutput)
 
-    # xóa folder ảnh
-    # output_temp = "image"
-    # clean_temp_folder(output_temp)
+#     # xóa folder ảnh
+#     # output_temp = "image"
+#     # clean_temp_folder(output_temp)
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
