@@ -1,5 +1,5 @@
 from PyPDF2 import PdfReader
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForQuestionAnswering, pipeline, XLMRobertaForQuestionAnswering
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForQuestionAnswering, pipeline
 import torch
 import re
 import os
@@ -16,6 +16,16 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from underthesea import sent_tokenize
 model = HuggingFaceEmbeddings(model_name = 'dangvantuan/vietnamese-embedding')
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+material_path = "ocr_material"
+
+pdf_name = "Lich su 12.pdf"
+file_name = os.path.splitext(pdf_name)[0]
+file_name = file_name.replace(' ', '_')
+print(file_name)
+pdf_file = os.path.join(material_path, pdf_name)
+output_file = f"qa_pairs_ocr/{file_name}/{file_name}_qa_pairs.json"
+open(output_file, 'w').close()
 
 
 
@@ -75,19 +85,13 @@ import os
 
 
 
-material_path = "ocr_material"
-
-pdf_name = "Lich su 12.pdf"
-file_name = os.path.splitext(pdf_name)[0]
-file_name = file_name.replace(' ', '_')
-print(file_name)
-pdf_file = os.path.join(material_path, pdf_name)
 
 os.makedirs(os.path.join('qa_pairs_ocr', file_name), exist_ok=True)
 reader = PdfReader(pdf_file)
 question_existed = []
 counter = 1
 ocr_reader = easyocr.Reader(['vi'], gpu=True)
+qa_pairs = []
 for i in range(len(reader.pages)):
     page = reader.pages[i]
     text = page.extract_text()
@@ -101,7 +105,6 @@ for i in range(len(reader.pages)):
     with open("log.txt", "a") as f:
         f.write(f"All text is : {text}, and chunks is : {chunks}\n")
 
-    qa_pairs = []
 
     for chunk in chunks:
         if not chunk.strip() or chunk.isnumeric():
@@ -119,13 +122,13 @@ for i in range(len(reader.pages)):
             if (question not in question_existed):
                 answer = generate_answer(question, chunk)
                 if (verify_qa(chunk, question, answer)):
-                    qa_pairs.append({"id": f"{pdf_file}_p_{i + 1}_{counter}","question": question, "answer": answer, "context": chunk})
+                    qa_pairs.append({"id": f"{file_name}_p_{i + 1}_{counter}","question": question, "answer": answer, "context": chunk})
                     question_existed.append(question)
 
 
     # Save the results to a JSON file
-    os
-    output_file = f"qa_pairs_ocr/{file_name}/{file_name}_qa_pairs_{i + 1}.json"
+    
+
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(qa_pairs, f, ensure_ascii=False, indent=4)
 
