@@ -1,0 +1,4 @@
+- Đưa hết nội dung của ocr_vintern....COLAB lên google COLAB:
+  + Ngay bên trái của google colab có cái key đặt tên và nhập : ngrok_token ; TOKEN: 2qmyt5ZRRbunKO6w3O504e56TY4_KoZ4x1gz8a1MAzdzYqUe
+- Tiến hành chạy : sau khi chạy sẽ có phần đổi phần này trong ocrLLM.py :  NgrokTunnel: "https://a0a1-34-87-45-51.ngrok-free.app" (ví dụ thì đổi bên trong file python)
+- Thay đổi prompt để đổi các kết quả : hiện tại đang sử dụng prompt để ocr nhưng ở trang 12 dưới phần ảnh chưa prompt được. Prompt này có thể dùng để tạo sinh hay trả lời câu hỏi, thay đổi format...
