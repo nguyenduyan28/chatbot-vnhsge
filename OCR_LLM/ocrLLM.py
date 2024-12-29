@@ -2,7 +2,8 @@ import base64
 import requests
 from pdf2image import convert_from_path
 import os
-ngrok_url ="https://a0a1-34-87-45-51.ngrok-free.app"
+from PyPDF2 import PdfReader
+ngrok_url ="https://2dd4-34-125-213-13.ngrok-free.app/"
 # Usage
 def upload_image_to_colab(image_path):
     with open(image_path, "rb") as image_file:
@@ -86,7 +87,7 @@ def fromPDFtoImg(pdf_file, page_index):
     # Xử lý từng ảnh
     for idx, image in enumerate(images):
         # Lưu ảnh vào tệp PNG
-        image_path = os.path.join(images_folder, f"page_{page_index + idx}.png")
+        image_path = os.path.join(images_folder, f"page_{page_index}.png")
         image.save(image_path, format="PNG")
 
         # Gọi OCR sau khi upload ảnh
@@ -116,6 +117,7 @@ image_path = "images/page_10.png"
 # with open(output_file, "w", encoding="utf-8") as file:
 #   file.write(result)
 pdfPath = "sachSu_12.pdf"
-for i in range(10, 13):
-  fromPDFtoImg(pdfPath, i)
+reader = PdfReader(pdfPath)
+for i in range(0, len(reader.pages)):
+    fromPDFtoImg(pdfPath, i)
 # fromPDFtoImg(pdfPath, 12)
