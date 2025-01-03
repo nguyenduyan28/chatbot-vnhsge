@@ -1,0 +1,8 @@
+OCR:
+Tạo google colab với ngrok link => lấy link chạy file ocrLLM (source sách pdf) => ocr.txt(dialy.txt)
+
+Gen ques,ans: 
+chạy genques => tạo từ ocr.txt => qa_dialy_qa_pairs.json
+
+Fine tuning:
+chạy final_finetune.ipynb => tạo từ file json => sẽ tạo được file đã fine tune => test
