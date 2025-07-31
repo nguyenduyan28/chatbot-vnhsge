@@ -149,3 +149,31 @@ This script loads a random subset from `testing/qa_pairs_*.json` and reports:
 Results are written to `output/eval_log.txt`.
 
 ---
+---
+
+## 🔧 AI Techniques Used
+
+This project integrates multiple AI and NLP methods across the pipeline:
+
+- **Optical Character Recognition (OCR)**  
+  - Classical: `Tesseract-OCR` for lightweight, local character recognition.  
+  - Advanced: `Vintern 1B v2` — a large language model for image-to-text OCR, combining:
+    - `InternViT-300M` for visual recognition.
+    - `Qwen2-0.5B-Instruct` for multilingual text interpretation.
+
+- **Text Chunking & Preprocessing**  
+  - Implemented both **semantic chunking** and **recursive chunking** to split scanned pages into meaning-preserving units.
+
+- **Question Generation**  
+  - Used `msmarco-vietnamese-mt5-base-v1`, a Vietnamese fine-tuned sequence-to-sequence model based on mT5, capable of generating contextually relevant questions from OCR'd text.
+
+- **Answer Generation**  
+  - Deployed `xlm-roberta-large-vi-qa` for extractive QA. The model handles both question–context alignment and answer span extraction from Vietnamese texts.
+
+- **Answer Verification**  
+  - Adopted `Meta-LLaMA-3-8B-Instruct` to filter invalid answers and ensure logical correctness via LLM-based feedback.
+
+- **Fine-tuning & Training**  
+  - Applied **quantization** via `bitsandbytes` to reduce memory use (4-bit & 8-bit support).
+  - Used **LoRA (Low-Rank Adaptation)** from Hugging Face `PEFT` to perform **parameter-efficient fine-tuning** (PET) on top of `LLaMA-2-7B-chat`.
+  - All training done with **HuggingFace Transformers**, `Accelerate`, and custom dataset pipelines.
